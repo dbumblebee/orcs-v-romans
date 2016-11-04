@@ -12,6 +12,9 @@
 		7D18C0AD1DCC7572006ACDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D18C0AB1DCC7572006ACDFA /* Main.storyboard */; };
 		7D18C0AF1DCC7572006ACDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D18C0AE1DCC7572006ACDFA /* Assets.xcassets */; };
 		7D18C0B21DCC7572006ACDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D18C0B01DCC7572006ACDFA /* LaunchScreen.storyboard */; };
+		7D18C0BA1DCC7615006ACDFA /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18C0B91DCC7615006ACDFA /* Character.swift */; };
+		7D18C0BC1DCC791C006ACDFA /* exercise.readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7D18C0BB1DCC791C006ACDFA /* exercise.readme.rtf */; };
+		7D18C0BE1DCC8194006ACDFA /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D18C0BD1DCC8194006ACDFA /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		7D18C0AE1DCC7572006ACDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D18C0B11DCC7572006ACDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D18C0B31DCC7572006ACDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D18C0B91DCC7615006ACDFA /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		7D18C0BB1DCC791C006ACDFA /* exercise.readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = exercise.readme.rtf; sourceTree = "<group>"; };
+		7D18C0BD1DCC8194006ACDFA /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				7D18C0A91DCC7572006ACDFA /* ViewController.swift */,
 				7D18C0AB1DCC7572006ACDFA /* Main.storyboard */,
 				7D18C0AE1DCC7572006ACDFA /* Assets.xcassets */,
+				7D18C0B91DCC7615006ACDFA /* Character.swift */,
+				7D18C0BD1DCC8194006ACDFA /* Game.swift */,
+				7D18C0BB1DCC791C006ACDFA /* exercise.readme.rtf */,
 				7D18C0B01DCC7572006ACDFA /* LaunchScreen.storyboard */,
 				7D18C0B31DCC7572006ACDFA /* Info.plist */,
 			);
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					7D18C0A31DCC7572006ACDFA = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2BK3YKJ4V3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D18C0B21DCC7572006ACDFA /* LaunchScreen.storyboard in Resources */,
+				7D18C0BC1DCC791C006ACDFA /* exercise.readme.rtf in Resources */,
 				7D18C0AF1DCC7572006ACDFA /* Assets.xcassets in Resources */,
 				7D18C0AD1DCC7572006ACDFA /* Main.storyboard in Resources */,
 			);
@@ -136,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D18C0BA1DCC7615006ACDFA /* Character.swift in Sources */,
 				7D18C0AA1DCC7572006ACDFA /* ViewController.swift in Sources */,
 				7D18C0A81DCC7572006ACDFA /* AppDelegate.swift in Sources */,
+				7D18C0BE1DCC8194006ACDFA /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BK3YKJ4V3;
 				INFOPLIST_FILE = "orcs-v-romans/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dbumblebee.orcs-v-romans";
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BK3YKJ4V3;
 				INFOPLIST_FILE = "orcs-v-romans/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dbumblebee.orcs-v-romans";
